@@ -3,6 +3,6 @@ def turn_count(board)
   board.each do |space|
     space == "X" || space == "O" ? count += 1
   end
-      
+
   count
 end
